@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'font1' ;
+    src: url('https://fonts.googleapis.com/css2? family= Eczar:wght@700 & display=swap');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(255, 237, 239);
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+}
+
+header{
+    width:100%;
+    height:100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-size: contain;
+    
+
+}
+
+img{
+    width: 450px;
+    height: 430px;
+    border: 0px solid rgba(0, 0, 0, 0);
+    border-radius: 8px 8px 2px 2px;
+}
+
+main {
+    text-align: center;
+    height:430px ;
+    width: 450px ;
+    border: 0px solid rgba(141, 16, 16, 0);
+    border-radius: 0px 8px 8px 8px;
+    background-color: white;
+    color:black;
+    background-size:cover;
+}
+
+main > h1{
+    font-family: 'font1';
+    font-weight: bolder;
+}
+
+main > .perfume{
+    padding:15px;
+    font-family:monospace;
+    font-size: 15px;
+}
+
+main > .conteudo{
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+}
+
+main > #grana{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    padding: 20px;
+
+}
+
+#grana > #preço{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 20px;
+    text-align: left;
+}
+
+#grana > #valor{
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(122, 122, 122, 0.548);
+
+}
+
+#final{
+    border-radius: 10px;
+    border: 0px solid black;
+    width: 400px ;
+    height:60px ;
+    margin: auto;
+    background-color:rgba(0, 114, 25, 0.712);
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:678px){
+    header{
+        display: block;
+        
+    }
+
+    header > img > main{
+        display:block;
+        background-image:url(images/image-product-desktop.jpg);
+    } 
+   
+}
+
+@media screen and (max-width:768px){
+    header > img{
+        display:block;
+        background-image:url(images/image-product-mobile.jpg);
+    }   
+}
+
+
