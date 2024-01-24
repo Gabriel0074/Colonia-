@@ -16,7 +16,9 @@ body{
     width: 100%;
     justify-content: center;
     margin: auto;
+
 }
+
 
 header{
     width:100%;
@@ -74,6 +76,7 @@ main > #grana{
     background-size: contain;
     padding: 20px;
 
+
 }
 
 #grana > #preço{
@@ -82,7 +85,9 @@ main > #grana{
     font-weight: bold;
     padding-right: 20px;
     text-align: left;
+    color:rgba(0, 114, 25, 0.712) ;
 }
+
 
 #grana > #valor{
     font-size: 14px;
@@ -102,7 +107,16 @@ main > #grana{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-weight: bold;
+    text-align: center;
 
+}
+
+#final > i{
+    padding-right: 50px;
+}
+
+#final:hover{
+    background-color: rgba(87, 185, 108, 0.555) ;
 }
 
 @media screen and (max-width:678px){
